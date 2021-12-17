@@ -6,7 +6,7 @@ name: 同步虚幻引擎代码到Coding
 on:
   schedule:
     # 每10天定时启动
-    - cron:  '0 0 0/10 * *'
+    - cron:  '0 0 10,20,30 * *'
   push:
     #特定分支(mian),
     branches:
