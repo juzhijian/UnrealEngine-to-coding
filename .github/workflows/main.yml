@@ -38,7 +38,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Sync Repo to CODING
-        uses: juzhijian/sync-repo-to-coding@master
+        uses: serverlesslife-cn/sync-repo-to-coding@master
         env:
             # 在 GitHub Settings->Secrets 配置 CODING_PRIVATE_KEY
             SSH_PRIVATE_KEY: ${{ secrets.CODING_PRIVATE_KEY }}
@@ -48,7 +48,7 @@ jobs:
             # 注意替换为你的 CODING 目标仓库地址
             coding-repo: "git@e.coding.net:juzhijian/honghuang/UnrealEngine.git"
             # 仓库名称
-            appname: "UnrealEngine"
+            #appname: "UnrealEngine"
             # 提交前运行sh
             #wgetsh: "https://raw.githubusercontent.com/juzhijian/UnraidAPP/main/AppFeed/main.sh"
 
