@@ -44,7 +44,7 @@ jobs:
             SSH_PRIVATE_KEY: ${{ secrets.CODING_PRIVATE_KEY }}
         with:
             # 注意替换为你的 GitHub 源仓库地址
-            github-repo: "git@github.com:EpicGames/UnrealEngine.git"
+            github-repo: "git@github.com:wangchucheng/git-repo-sync.git"
             # 注意替换为你的 CODING 目标仓库地址
             coding-repo: "git@e.coding.net:juzhijian/honghuang/UnrealEngine.git"
             # 仓库名称
