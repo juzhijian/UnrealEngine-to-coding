@@ -1,6 +1,6 @@
 # 这是一个基本工作流，可帮助您开始操作
 
-name: 同步虚幻引擎代码到Coding
+name: 编译虚幻引擎
 
 # 控制工作流何时运行
 on:
@@ -30,7 +30,7 @@ jobs:
       matrix:
         config:  
         - {
-          name: "同步虚幻引擎",
+          name: "编译虚幻引擎",
           os: windows-latest
           }
         
